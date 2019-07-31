@@ -1,1 +1,0 @@
-# parth-dedhia.github.io
