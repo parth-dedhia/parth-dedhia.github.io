@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head>
+
+    <!--- basic page needs
+    ================================================== -->
+    <meta charset="utf-8">
+    <title>Capturing of a digital Image</title>
+    <meta name="description" content="Image capturing using a Camera">
+    <meta name="author" content="Parth's Blog">
+
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+</head>
+
+<body id="top">
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader" class="dots-fade">
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+
+    <!-- header
+    ================================================== -->
+    <header class="s-header header">
+
+        <!-- <div class="header__logo">
+            <a class="logo" href="index.html">
+                <img src="images/logo.svg" alt="Homepage">
+            </a>
+        </div> -->
+
+        <a class="header__search-trigger" href="#0"></a>
+        <div class="header__search">
+
+            <form role="search" method="get" class="header__search-form" action="#">
+                <label>
+                    <span class="hide-content">Search for:</span>
+                    <input type="search" class="search-field" placeholder="Type Keywords" value="" name="s" title="Search for:" autocomplete="off">
+                </label>
+                <input type="submit" class="search-submit" value="Search">
+            </form>
+
+            <a href="#0" title="Close Search" class="header__overlay-close">Close</a>
+
+        </div>  <!-- end header__search -->
+
+        <a class="header__toggle-menu" href="#0" title="Menu"><span>Menu</span></a>
+        <nav class="header__nav-wrap">
+
+            <h2 class="header__nav-heading h6">Navigate to</h2>
+
+            <ul class="header__nav">
+                <li class="current"><a href="index.html" title="">Home</a></li>
+                <!-- <li><a href="page-about.html" title="">About</a></li> -->
+                <!-- <li><a href="page-contact.html" title="">Contact</a></li> -->
+            </ul> <!-- end header__nav -->
+
+            <a href="#0" title="Close Menu" class="header__overlay-close close-mobile-menu">Close</a>
+
+        </nav> <!-- end header__nav-wrap -->
+
+    </header> <!-- s-header -->
+
+
+    <!-- s-content
+    ================================================== -->
+    <section class="s-content s-content--top-padding s-content--narrow">
+
+        <article class="row entry format-standard">
+
+            <div class="entry__media col-full">
+                <div class="entry__post-thumb">
+                    <img src="images/thumbs/single/standard/standard-1000.jpg" 
+                         srcset="images/thumbs/single/standard/standard-2000.jpg 2000w, 
+                                 images/thumbs/single/standard/standard-1000.jpg 1000w, 
+                                 images/thumbs/single/standard/standard-500.jpg 500w" 
+                         sizes="(max-width: 2000px) 100vw, 2000px" alt="">
+                </div>
+            </div>
+
+            <div class="entry__header col-full">
+                <h1 class="entry__header-title display-1">
+                    Capturing of a digital Image
+                </h1>
+                <ul class="entry__header-meta">
+                    <li class="date">August 3, 2019</li>
+                    <li class="byline">
+                        By
+                        <a href="#0">Parth Dedhia</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-full entry__main">
+
+                
+                <!-- <p>Harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus <a href="http://#">omnis voluptas assumenda est</a> id quod maxime placeat facere possimus, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et.</p> -->
+
+                <blockquote><p>A picture is worth thousand words</p></blockquote>
+
+                <p>
+                    The images that are currently uploaded on social media sites like facebook, instagram, twitter and snapchat are all 
+                    digital images. The images captured are real life objects but the images stored are actually numbers.
+                    Let's take a look at how the camera does this magic and gives us a image.
+                </p>
+
+                <h2>Light</h2>
+
+                <p>
+                    Light has a dual nature of wave as well as particle. Whatever we see is just a reflection of the light incident on it.
+                    For example, when we sun light falls on a tree, the tree leaves reflect only the green (or yellow or orange or pink) 
+                    light incident on it and absorbs the rest of the light. Similarly the trunk will reflect brown and tones of brown light.
+                    This light becomes incident on our eyes;which is focused on the retina. Due to the focal properties of the lens, the image 
+                    formed on the retina is actually the inverted object of the actual object. Its the brain that takes this inverted images
+                    and makes us percieve as a corect image. Camera, just like the eyes and brain, tries to do the same work for us.
+                </p>
+
+                <h2>Camera</h2>
+
+                <p>
+                    The camera uses manually adjustable lenses to capture the light incident on it, and just like the eye,
+                    it focuses the image on a silicon plate (This is where all the magic begins). The light incident on the lens is focused on 
+                    either a CCD or a CMOS light sensor. These plates are divided into a set of small grids, and each grid corresponds to a pixel.
+                    Each pixel acts as a sensor to detect the light incident on it and measures the intensity of the incident light. Since the concept
+                    of intensity has come into picture, we need to keep a check on the amount of time the light is incident on the sensor. So we need 
+                    to adjust the shutter speed as well as the ISO of the image (I will explain both in a while). Now when the light of a particular
+                    intensity is incident on a particular cell of a CMOS or CCD sensor for a particular time will cause photoelectric effect and cause a
+                    voltage to be developed at each cell level. This voltage is the sent to a voltage amplifier. The amplifier amplifies the voltage
+                    (CCD/CMOS manufactured by different companies may have different amplification ratios). These amplified signals are then converted
+                    from analog to digital values using sampling and quantization(I will explain this as well).
+                </p>
+
+                <h2>Shutter and ISO</h2>
+
+                <h3>Shutter</h3>
+                <p>
+                    Shutter is a smal mechanical device inside the camera that controls the amount of time the CCd or CMOS light sensors
+                    are exposed to light. Where on earth is this used??
+                    Simple, when u are capturing the image during day light, you may not need the exposure of lens to the light to be a long time.
+                    However, during night time, when the light is less u may need the CMOS/CCD cells to be exposed for a relatively more amount of time.
+                    Due to this the images can be taken during night time as well.
+                </p>
+
+                <h3>ISO</h3>
+                <p>
+                    ISO factor is measured in numbers. It denotes the sensitivity of light to camera. 
+                    If ISO number is lowered, it means our camera is less sensitive to light and if the ISO number is high, 
+                    it means it is more sensitive. The higher the ISO setting is, the brighter the captured image is. The downside of increasing
+                    the ISO is that it may also introduce the noise.
+                </p>
+
+                <h2>Color Images</h2>
+                <p>
+                    Wait a sec, since I said that the cells of light sensitive screen only captures light intensity, does that 
+                    mean that the images captured are gray scaled ?
+                    <br>
+                    <b>No</b>
+                    <br>
+                    There is a layer of filter above each cell of the light sensitive sheet. This filter absorbs only light belonging 
+                    to a particular color. The image shown below shows that how the light color filter screen. As one can see that the light sensors 
+                    absorb light only that pass through these filters. Based on the image show, one can see that the number of green light filter are double then either
+                    of the red or blue light filter. This is due to the fact that our eyes are more susciptible to green than to blue or red. A colored image can be only formed 
+                    from the combination of all the three primary colors. Hence the manipulation done by the camera producers is done at this stage.
+                    The assumption is that two pixel, who are very close to each other can be assumed to have similar values of Red or Blue or Green. So the 
+                    manufaturers manipulate the pixel values at each point by taking the average of the neighbouring colors.
+                </p>
+                <figure style="margin-left: auto;margin-right: auto;display: block;width: 50%">
+                    <img src="images/blog-images/capturing-of-digital-image/color-filter.png" alt="">
+                    <figcaption>Image Credit : Wikipedia</figcaption>
+                </figure>
+                
+
+                <h2>Digitzation of the image</h2>
+                <p>
+                    The captured images are basically voltage values, which need to be converted into discrete values inorder to be stored on a chip.
+                    This process is done by quantization and sampling. The image below shows the graph of a continuous function which need to be quantized
+                    as well as sampled.
+                </p>
+                <figure style="margin-left: auto;margin-right: auto;display: block;width: 50%">
+                    <img src="images/blog-images/capturing-of-digital-image/quantization-level-and-sampling.jpg" alt="" style="align-content: center">
+                    <figcaption>Image Credit : Tutorials Point</figcaption>
+                </figure>
+
+                <h3>Sampling</h3>
+                <p>
+                    During Sampling, we consider some values on x-axis after particular interval. The corresponding y-axis values are stored. We need to 
+                    sample the function in such a way that enough amount of samples are there so that an image can be generated. The sample selection frequency 
+                    is taken in mind considering the Nyquist frequency for sampling.
+                </p>
+                <h3>Quantization</h3>
+                <p>
+                    Now when these samples are stored they are real values and hence require a lot of space to be stored. So we quantize them into a particular
+                    range based on the number of bits used to store per pixel(bpp). So lets say that our device stores the per pixel of an image in 8 bits. This means
+                    that we can make devision on the y-axis which would be equal to 2^bpp = 2^8 = 256. This means that we have devided the input range of continuous values
+                    into a range of 0-255 eacch of equal width.
+                </p>
+
+                <p>
+                    This is how an image is converted from analog values to digital values. Gray images are stored with only one channel where the channel 
+                    directly represents the quantized values of the input light. However, in case of colored images, the number channels is 3 and one channel
+                    represents red, one blue and one green. This digital images can be then used for digital image processing function nd for many other tasks.
+                </p>
+
+                <ul>
+                    <li>Used of digital Image
+                        <ul>
+                            <li>Social Media</li>
+                            <li>Image Processing</li>
+                            <li>Object Detection</li>
+                        </ul>
+                    </li>
+                    <li>
+                        Applications of Digital Image Processing
+                        <ul>
+                            <li>Meterology</li>
+                            <li>Medical Diagostics</li>
+                            <li>Astronomy</li>
+                            <li>Phramaceuticals</li>
+                            <li>Radar Imaging</li>
+                            <li>Geological Imaging</li>
+                            <li>Optical Charachter Recognition</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <p>
+                    <b>
+                        Kindly note that I have only covered digital image generation using camera. For radar imaging, or for Medical Dignostics, the way in which Images
+                        are captured are not the same as those captured using camera.
+                    </b>
+                </p>
+
+                
+
+            </div> <!-- s-entry__main -->
+
+        </article> <!-- end entry/article -->
+
+    </section> <!-- end s-content -->
+
+    <!-- s-footer
+    ================================================== -->
+    <footer class="s-footer">
+
+        <div class="s-footer__main">
+            <div class="row">
+                
+                <div class="col-12 tab-full s-footer__about">
+                        
+                    <h4>About Parth</h4>
+
+                <p>
+                    I am Computer Engineering student studying from Sardar Patel Institute of Technology. 
+                    I have quite a lot of hobbies and these mainly include reading books probably thrillers, autobiograhies and philosophical.
+                    I even enjoy going on treks, both long and short. I have shown some of my images on the carrousal of the blog. In this blog post I would be sharing my work on image processing and Computer Vision.
+                    If I am able to find time, I would even like to share some information about Machine Learning, Deep learning as well as some of my trekking
+                    experiences.
+                </p>
+
+                </div> <!-- end s-footer__about -->
+
+                <!-- <div class="col-six tab-full s-footer__subscribe">
+                        
+                    <h4>Our Newsletter</h4>
+
+                    <p>Sit vel delectus amet officiis repudiandae est voluptatem. Tempora maxime provident nisi et fuga et enim exercitationem ipsam. Culpa consequatur occaecati.</p>
+
+                    <div class="subscribe-form">
+                        <form id="mc-form" class="group" novalidate="true">
+
+                            <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                
+                            <input type="submit" name="subscribe" value="Send">
+                
+                            <label for="mc-email" class="subscribe-message"></label>
+                
+                        </form>
+                    </div>
+
+                </div> end s-footer__subscribe  -->
+
+            </div>
+        </div> <!-- end s-footer__main -->
+
+        <div class="s-footer__bottom">
+            <div class="row">
+
+                <div class="col-six">
+                    <ul class="footer-social">
+                        <li>
+                            <a href="#0"><i class="fab fa-facebook"></i></a>
+                        </li>
+                        <li>
+                            <a href="#0"><i class="fab fa-instagram"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </div> <!-- end s-footer__bottom -->
+
+        <div class="go-top">
+            <a class="smoothscroll" title="Back to Top" href="#top"></a>
+        </div>
+
+    </footer> <!-- end s-footer -->
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
